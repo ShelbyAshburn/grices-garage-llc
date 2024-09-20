@@ -10824,8 +10824,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-@media (min-width: 1200px){
+/*hiding buttons that are used for tablet and mobile views*/
+@media (min-width: 1024px){
   #call-button{
+    display: none;
+  }
+}
+
+@media (max-width: 1023px){
+  #email-button{
     display: none;
   }
 }
