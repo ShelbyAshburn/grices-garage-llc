@@ -10837,16 +10837,30 @@ textarea.form-control-lg {
     display: none;
   }
 }
-
+/*hiding email in tablet and mobile*/
 @media (max-width: 1023px){
   #email-button{
     display: none;
   }
 }
+/*hiding the top nav items on the right*/
 #navbarSupportedContent{
   visibility: hidden;
 
 }
+/*hiding the hamburger menu*/
 #hamburger{
   visibility: hidden;
+}
+/*makes the red bar a flex box*/
+.redBar{
+  display:flex;
+  justify-content: center;
+  gap: 40px;
+}
+/*un-ordered lists in the red bar*/
+.serviceList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
