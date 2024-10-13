@@ -10856,11 +10856,11 @@ textarea.form-control-lg {
 .redBar{
   display:flex;
   justify-content: center;
-  gap: 40px;
+  gap: inherit;
 }
 /*un-ordered lists in the red bar*/
 .serviceList{
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: .5em;
 }
