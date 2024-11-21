@@ -1,0 +1,25 @@
+<!--Email form allowing cutomers to contact without exposing client email address. Must be activated with client email and use provided random number instead of exposed email-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Form</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body class="bg-image">
+    <!--Used from https://www.formsubmit.co-->
+    <!--Message area needs to be bigger and inline with email field-->
+    <form action="https://formsubmit.co/mgrice57@gmail.com" method="POST">
+        <input type="email" name="email" placeholder="Email address" required>
+        <input type="hidden" name="_next" value="https://gricesgarage.com/thankyou.html">
+        <input type="text" name="message" placeholder="Message" required>
+        <input type="hidden" name="_subject" value="Grices Garage Customer">
+        <button type="submit">Send</button>
+   </form>
+
+  </body>
+</html>
