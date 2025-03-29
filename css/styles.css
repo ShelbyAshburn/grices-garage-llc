@@ -10829,6 +10829,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:cover;
+  background-position: center;/* new feature for ios compatibilty from Copilot*/
  
 }
 /*hiding buttons that are used for tablet and mobile views*/
