@@ -10844,6 +10844,15 @@ textarea.form-control-lg {
     display: none;
   }
 }
+/*removing the red bar for mobile view*/
+@media (max-width: 770px){
+  .bg-secondary{
+    display:none;
+  }
+  .redBar{
+    display:none;
+  }
+}
 /*hiding the top nav items on the right*/
 #navbarSupportedContent{
   visibility: hidden;
@@ -10864,4 +10873,20 @@ textarea.form-control-lg {
   list-style-type: none;
   margin: 0;
   padding: .5em;
+}
+/*the email page*/
+.email-form{
+  display: flex;
+}
+#email-box{
+  display:flex;
+  margin:5px;
+}
+#message-box{
+  display:flex;
+  margin:5px;
+}
+#email-button-on-form{
+  display:flex;
+  margin:5px;
 }
